@@ -589,7 +589,7 @@
         <div class="nav-buttons">
             <!-- <button><img src="/Icons/profile_no_border.svg" alt=""> My Account</button> -->
             <button class="login-button" onclick="showLoginForm()">Login</button>
-            <button><img src="/Icons/cart-large-minimalistic-svgrepo-com.svg" alt=""> Cart</button>
+            <button><img src="Icons/cart-large-minimalistic-svgrepo-com.svg" alt=""> Cart</button>
         </div>
     </div>
     
@@ -607,7 +607,7 @@
         <div class="search-box">
             <input type="text" id="searchInput" placeholder="Search for books...">
             <button id="searchButton">
-                <img src="/Icons/search-alt-2-svgrepo-com.svg" alt="Search">
+                <img src="Icons/search-alt-2-svgrepo-com.svg" alt="Search">
             </button>
         </div>
     </div>
@@ -627,15 +627,15 @@
         <div class="clickable-left"></div>
         <button class="arrow arrow-left">❮</button>
         <div class="gradient-overlay"></div>
-        <img src="/Images/hero_img_1.jpg" class="active" alt="Slide 1">
+        <img src="Images/hero_img_1.jpg" class="active" alt="Slide 1">
         <div class="gradient-overlay"></div>
-        <img src="/Images/hero_img_2.jpg" alt="Slide 2">
+        <img src="Images/hero_img_2.jpg" alt="Slide 2">
         <div class="gradient-overlay"></div>
-        <img src="/Images/hero_img_3.jpg" alt="Slide 3">
+        <img src="Images/hero_img_3.jpg" alt="Slide 3">
         <div class="gradient-overlay"></div>
-        <img src="/Images/hero_img_4.jpg" alt="Slide 4">
+        <img src="Images/hero_img_4.jpg" alt="Slide 4">
         <div class="gradient-overlay"></div>
-        <img src="/Images/hero_img_5.jpg" alt="Slide 5">
+        <img src="Images/hero_img_5.jpg" alt="Slide 5">
         <button class="arrow arrow-right">❯</button>
         <div class="clickable-right"></div>
     </div>
@@ -647,43 +647,43 @@
             <div class="category-wrapper">
                 <div class="category-card">
                     <a href="category-page.html">
-                        <img src="/Images/romance.jpg" alt="Romance">
+                        <img src="Images/romance.jpg" alt="Romance">
                     </a>
                     <p>Romance</p>
                 </div>
                 <div class="category-card">
                     <a href="category-page.html">
-                        <img src="/Images/ficiton.jpg" alt="Fiction">
+                        <img src="Images/ficiton.jpg" alt="Fiction">
                     </a>
                     <p>Fiction</p>
                 </div>
                 <div class="category-card">
                     <a href="category-page.html">
-                        <img src="/Images/history.jpg" alt="History">
+                        <img src="Images/history.jpg" alt="History">
                     </a>
                     <p>History</p>
                 </div>
                 <div class="category-card">
                     <a href="category-page.html">
-                        <img src="/Images/horror.jpg" alt="Horror">
+                        <img src="Images/horror.jpg" alt="Horror">
                     </a>
                     <p>Horror</p>
                 </div>
                 <div class="category-card">
                     <a href="category-page.html">
-                        <img src="/Images/comedy.jpg" alt="Comedy">
+                        <img src="Images/comedy.jpg" alt="Comedy">
                     </a>
                     <p>Comdey</p>
                 </div>
                 <div class="category-card">
                     <a href="category-page.html">
-                        <img src="/Images/fantasy.jpg" alt="Fantasy">
+                        <img src="Images/fantasy.jpg" alt="Fantasy">
                     </a>
                     <p>Fantasy</p>
                 </div>
                 <div class="category-card">
                     <a href="category-page.html">
-                        <img src="/Images/biography.jpg" alt="Biography">
+                        <img src="Images/biography.jpg" alt="Biography">
                     </a>
                     <p>Biography</p>
                 </div>
@@ -723,16 +723,16 @@
     <div class="footer">&copy; 2025 NOLINTAGE. All Rights Reserved.</div>
 
     <script>
-        // setTimeout(() => {
-        //     document.getElementById('cover').style.display = 'none';
-        // }, 5000);
-        // document.getElementById("searchButton").addEventListener("click", function () {
-        //     let query = document.getElementById("searchInput").value.trim();
-        //     if (query) {
-        //         alert("Searching for: " + query);
-        //         // Replace with actual search logic
-        //     }
-        // });
+        setTimeout(() => {
+            document.getElementById('cover').style.display = 'none';
+        }, 5000);
+        document.getElementById("searchButton").addEventListener("click", function () {
+            let query = document.getElementById("searchInput").value.trim();
+            if (query) {
+                alert("Searching for: " + query);
+                // Replace with actual search logic
+            }
+        });
         let slides = document.querySelectorAll('.hero img');
         let currentIndex = 0;
         let slideInterval;
